@@ -3,56 +3,56 @@
 
 ```mermaid
 graph TD;
-    A[Fatores de Textualidade] -->|1| B[Coerência] 
-    A -->|2| C[Coesão] 
-    A -->|3| D[Clareza] 
-    A -->|4| E[Concisão] 
-    A -->|5| F[Correção - Variação Linguística] 
-    A -->|6| G[Intencionalidade] 
-    A -->|7| H[Informatividade] 
-    A -->|8| I[Intertextualidade] 
-    A -->|9| J[Aceitabilidade] 
-    A -->|10| K[Situacionalidade] 
+    A["📌 Fatores de Textualidade"] -->|1| B["🧩 Coerência"] 
+    A -->|2| C["🔗 Coesão"] 
+    A -->|3| D["📝 Clareza"] 
+    A -->|4| E["✂️ Concisão"] 
+    A -->|5| F["📚 Correção (Variação Linguística)"] 
+    A -->|6| G["🎯 Intencionalidade"] 
+    A -->|7| H["💡 Informatividade"] 
+    A -->|8| I["📜 Intertextualidade"] 
+    A -->|9| J["✅ Aceitabilidade"] 
+    A -->|10| K["🌍 Situacionalidade"] 
 
-    B --> B1[Definição: Organização lógica das ideias] 
-    B --> B2[Elementos: Progressão temática, consistência] 
-    B --> B3[Exemplo: Manutenção do sentido ao longo do texto] 
+    B --> B1["📖 Organização lógica das ideias"] 
+    B --> B2["📊 Progressão temática, consistência"] 
+    B --> B3["📝 Manutenção do sentido no texto"] 
 
-    C --> C1[Definição: Ligação entre palavras e frases] 
-    C --> C2[Elementos: Conectivos, anáforas, elipses] 
-    C --> C3[Exemplo: Uso de conjunções para conectar ideias] 
+    C --> C1["🔗 Ligação entre palavras/frases"] 
+    C --> C2["🛠️ Conectivos, anáforas, elipses"] 
+    C --> C3["📌 Uso de conjunções para conectar ideias"] 
 
-    D --> D1[Definição: Facilidade de compreensão] 
-    D --> D2[Elementos: Simplicidade, organização textual] 
-    D --> D3[Exemplo: Evitar ambiguidades e jargões complexos] 
+    D --> D1["🧐 Facilidade de compreensão"] 
+    D --> D2["🛠️ Simplicidade e organização"] 
+    D --> D3["⚠️ Evitar ambiguidades e jargões complexos"] 
 
-    E --> E1[Definição: Uso preciso das palavras] 
-    E --> E2[Elementos: Evitar redundâncias, objetividade] 
-    E --> E3[Exemplo: Evitar repetições desnecessárias] 
+    E --> E1["🎯 Uso preciso das palavras"] 
+    E --> E2["🚀 Objetividade e evitar redundâncias"] 
+    E --> E3["📝 Evitar repetições desnecessárias"] 
 
-    F --> F1[Definição: Norma culta e variações regionais] 
-    F --> F2[Elementos: Gramática, ortografia, regionalismos] 
-    F --> F3[Exemplo: Ajuste do vocabulário ao contexto] 
+    F --> F1["📚 Norma culta e variações regionais"] 
+    F --> F2["🛠️ Gramática, ortografia, regionalismos"] 
+    F --> F3["📌 Ajuste do vocabulário ao contexto"] 
 
-    G --> G1[Definição: Intenção comunicativa do autor] 
-    G --> G2[Elementos: Objetivo do texto, público-alvo] 
-    G --> G3[Exemplo: Textos persuasivos e informativos] 
+    G --> G1["🎯 Intenção comunicativa do autor"] 
+    G --> G2["📌 Objetivo do texto e público-alvo"] 
+    G --> G3["📝 Textos persuasivos e informativos"] 
 
-    H --> H1[Definição: Grau de novidade da informação] 
-    H --> H2[Elementos: Conteúdo previsível ou inesperado] 
-    H --> H3[Exemplo: Textos jornalísticos e acadêmicos] 
+    H --> H1["💡 Grau de novidade da informação"] 
+    H --> H2["📊 Conteúdo previsível ou inesperado"] 
+    H --> H3["📰 Textos jornalísticos e acadêmicos"] 
 
-    I --> I1[Definição: Referência a outros textos] 
-    I --> I2[Elementos: Citações, paráfrases, alusões] 
-    I --> I3[Exemplo: Referências literárias e culturais] 
+    I --> I1["📜 Referência a outros textos"] 
+    I --> I2["🛠️ Citações, paráfrases, alusões"] 
+    I --> I3["📌 Referências literárias e culturais"] 
 
-    J --> J1[Definição: Aceitação pelo leitor] 
-    J --> J2[Elementos: Adequação à expectativa do público] 
-    J --> J3[Exemplo: Coesão e coerência alinhadas ao contexto] 
+    J --> J1["✅ Aceitação pelo leitor"] 
+    J --> J2["📌 Adequação à expectativa do público"] 
+    J --> J3["📝 Coesão e coerência alinhadas ao contexto"] 
 
-    K --> K1[Definição: Adequação ao contexto] 
-    K --> K2[Elementos: Gênero textual, formalidade] 
-    K --> K3[Exemplo: Linguagem formal em documentos oficiais] 
+    K --> K1["🌍 Adequação ao contexto"] 
+    K --> K2["📌 Gênero textual e formalidade"] 
+    K --> K3["📄 Linguagem formal em documentos oficiais"] 
 
     %% Estilizando os nós principais
     style A fill:#ffcc00,stroke:#333,stroke-width:3px
@@ -68,42 +68,5 @@ graph TD;
     style K fill:#66ff66,stroke:#009900,stroke-width:2px
 
     %% Estilizando os sub-nós
-    style B1 fill:#ffb3b3,stroke:#990000,stroke-width:1.5px
-    style B2 fill:#ffb3b3,stroke:#990000,stroke-width:1.5px
-    style B3 fill:#ffb3b3,stroke:#990000,stroke-width:1.5px
-
-    style C1 fill:#b3e0ff,stroke:#003366,stroke-width:1.5px
-    style C2 fill:#b3e0ff,stroke:#003366,stroke-width:1.5px
-    style C3 fill:#b3e0ff,stroke:#003366,stroke-width:1.5px
-
-    style D1 fill:#c2f0c2,stroke:#006600,stroke-width:1.5px
-    style D2 fill:#c2f0c2,stroke:#006600,stroke-width:1.5px
-    style D3 fill:#c2f0c2,stroke:#006600,stroke-width:1.5px
-
-    style E1 fill:#ffcc99,stroke:#cc3300,stroke-width:1.5px
-    style E2 fill:#ffcc99,stroke:#cc3300,stroke-width:1.5px
-    style E3 fill:#ffcc99,stroke:#cc3300,stroke-width:1.5px
-
-    style F1 fill:#e0b3ff,stroke:#660099,stroke-width:1.5px
-    style F2 fill:#e0b3ff,stroke:#660099,stroke-width:1.5px
-    style F3 fill:#e0b3ff,stroke:#660099,stroke-width:1.5px
-
-    style G1 fill:#ffffb3,stroke:#999900,stroke-width:1.5px
-    style G2 fill:#ffffb3,stroke:#999900,stroke-width:1.5px
-    style G3 fill:#ffffb3,stroke:#999900,stroke-width:1.5px
-
-    style H1 fill:#99ffdd,stroke:#009966,stroke-width:1.5px
-    style H2 fill:#99ffdd,stroke:#009966,stroke-width:1.5px
-    style H3 fill:#99ffdd,stroke:#009966,stroke-width:1.5px
-
-    style I1 fill:#ffb3cc,stroke:#990033,stroke-width:1.5px
-    style I2 fill:#ffb3cc,stroke:#990033,stroke-width:1.5px
-    style I3 fill:#ffb3cc,stroke:#990033,stroke-width:1.5px
-
-    style J1 fill:#b3c6ff,stroke:#0033cc,stroke-width:1.5px
-    style J2 fill:#b3c6ff,stroke:#0033cc,stroke-width:1.5px
-    style J3 fill:#b3c6ff,stroke:#0033cc,stroke-width:1.5px
-
-    style K1 fill:#99ff99,stroke:#009900,stroke-width:1.5px
-    style K2 fill:#99ff99,stroke:#009900,stroke-width:1.5px
-    style K3 fill:#99ff99,stroke:#009900,stroke-width:1.5px
+    classDef subnode fill:#ffffff,stroke:#888,stroke-width:1.5px,font-size:12px;
+    class B1,B2,B3,C1,C2,C3,D1,D2,D3,E1,E2,E3,F1,F2,F3,G1,G2,G3,H1,H2,H3,I1,I2,I3,J1,J2,J3,K1,K2,K3 subnode;
