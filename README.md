@@ -14,4 +14,17 @@ graph LR;
     A -->|9| J[Aceitabilidade] --> J1[Definição: Aceitação pelo leitor] --> J2[Elementos: Adequação à expectativa do público] --> J3[Exemplo: Coesão e coerência alinhadas ao contexto];
     A -->|10| K[Situacionalidade] --> K1[Definição: Adequação ao contexto] --> K2[Elementos: Gênero textual, formalidade] --> K3[Exemplo: Linguagem formal em documentos oficiais];
 
+    %% Estilizando os nós principais
+    style A fill:#ffcc00,stroke:#333,stroke-width:3px
+    style B fill:#ff6666,stroke:#990000,stroke-width:2px
+    style C fill:#66ccff,stroke:#003366,stroke-width:2px
+    style D fill:#99ff99,stroke:#006600,stroke-width:2px
+    style E fill:#ff9966,stroke:#cc3300,stroke-width:2px
+    style F fill:#cc99ff,stroke:#660099,stroke-width:2px
+    style G fill:#ffff66,stroke:#999900,stroke-width:2px
+    style H fill:#66ffcc,stroke:#009966,stroke-width:2px
+    style I fill:#ff6699,stroke:#990033,stroke-width:2px
+    style J fill:#6699ff,stroke:#0033cc,stroke-width:2px
+    style K fill:#66ff66,stroke:#009900,stroke-width:2px
+
 
